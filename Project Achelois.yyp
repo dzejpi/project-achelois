@@ -3,6 +3,7 @@
     {"id":{"name":"spr_SubmarineGuiEdge","path":"sprites/spr_SubmarineGuiEdge/spr_SubmarineGuiEdge.yy",},"order":4,},
     {"id":{"name":"spr_SubmarineTorpedoIcon","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"order":10,},
     {"id":{"name":"spr_SubmarineFlechetteIcon","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},"order":1,},
+    {"id":{"name":"spr_Submarine","path":"sprites/spr_Submarine/spr_Submarine.yy",},"order":0,},
     {"id":{"name":"spr_SubmarineSam","path":"sprites/spr_SubmarineSam/spr_SubmarineSam.yy",},"order":5,},
     {"id":{"name":"spr_SplashScreenBG","path":"sprites/spr_SplashScreenBG/spr_SplashScreenBG.yy",},"order":0,},
     {"id":{"name":"spr_SubmarineDepthBG","path":"sprites/spr_SubmarineDepthBG/spr_SubmarineDepthBG.yy",},"order":0,},
@@ -82,6 +83,7 @@
     {"folderPath":"folders/Objects/Control Objects/Descend.yy","order":2,"resourceVersion":"1.0","name":"Descend","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Control Objects/Underwater.yy","order":3,"resourceVersion":"1.0","name":"Underwater","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Menu Buttons.yy","order":4,"resourceVersion":"1.0","name":"Menu Buttons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Submarine.yy","order":5,"resourceVersion":"1.0","name":"Submarine","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
