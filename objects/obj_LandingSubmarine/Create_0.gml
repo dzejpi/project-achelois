@@ -1,5 +1,5 @@
 /// @description Set variables
-depth = 10;
+depth = 5;
 
 landed = false;
 digging = false;
