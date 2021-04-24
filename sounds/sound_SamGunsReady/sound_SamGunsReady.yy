@@ -10,14 +10,14 @@
     "name": "sound_group",
     "path": "audiogroups/sound_group",
   },
-  "soundFile": "sound_ButtonSelect.wav",
-  "duration": 0.932891,
+  "soundFile": "sound_SamGunsReady.wav",
+  "duration": 1.855952,
   "parent": {
     "name": "GUI Sounds",
     "path": "folders/Sounds/GUI Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_ButtonSelect",
+  "name": "sound_SamGunsReady",
   "tags": [],
   "resourceType": "GMSound",
 }

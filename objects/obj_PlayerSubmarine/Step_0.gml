@@ -78,11 +78,15 @@ if isControllable
 			armed = false;
 			torpedoSelected = false;
 			flechettesSelected = false;
+			
+			audio_play_sound(sound_SamGunsDeactivated, 10, false);
 		} else
 		{
 			armed = true;
 			torpedoSelected = false;
 			flechettesSelected = true;
+			
+			audio_play_sound(sound_SamGunsReady, 10, false);
 		}
 	}
 	

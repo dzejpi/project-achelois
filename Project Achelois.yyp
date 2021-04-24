@@ -11,6 +11,7 @@
     {"id":{"name":"obj_ButtonParent","path":"objects/obj_ButtonParent/obj_ButtonParent.yy",},"order":0,},
     {"id":{"name":"obj_SplashLogo","path":"objects/obj_SplashLogo/obj_SplashLogo.yy",},"order":0,},
     {"id":{"name":"spr_SubmarineTextBG","path":"sprites/spr_SubmarineTextBG/spr_SubmarineTextBG.yy",},"order":7,},
+    {"id":{"name":"sound_SamGunsDeactivated","path":"sounds/sound_SamGunsDeactivated/sound_SamGunsDeactivated.yy",},"order":2,},
     {"id":{"name":"room_PlayDescend","path":"rooms/room_PlayDescend/room_PlayDescend.yy",},"order":3,},
     {"id":{"name":"obj_DescendStarter","path":"objects/obj_DescendStarter/obj_DescendStarter.yy",},"order":0,},
     {"id":{"name":"obj_MenuStarter","path":"objects/obj_MenuStarter/obj_MenuStarter.yy",},"order":0,},
@@ -21,6 +22,7 @@
     {"id":{"name":"obj_Jupiter","path":"objects/obj_Jupiter/obj_Jupiter.yy",},"order":5,},
     {"id":{"name":"spr_SubmarineFlechetteBG","path":"sprites/spr_SubmarineFlechetteBG/spr_SubmarineFlechetteBG.yy",},"order":3,},
     {"id":{"name":"font_MainSognarak","path":"fonts/font_MainSognarak/font_MainSognarak.yy",},"order":0,},
+    {"id":{"name":"sound_SamGunsReady","path":"sounds/sound_SamGunsReady/sound_SamGunsReady.yy",},"order":1,},
     {"id":{"name":"spr_SubmarineTorpedoBG","path":"sprites/spr_SubmarineTorpedoBG/spr_SubmarineTorpedoBG.yy",},"order":9,},
     {"id":{"name":"font_MainSognarakSmall","path":"fonts/font_MainSognarakSmall/font_MainSognarakSmall.yy",},"order":1,},
     {"id":{"name":"font_MainSognarakHuge","path":"fonts/font_MainSognarakHuge/font_MainSognarakHuge.yy",},"order":2,},
@@ -92,6 +94,7 @@
     {"folderPath":"folders/Sprites/Submarine.yy","order":5,"resourceVersion":"1.0","name":"Submarine","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Splash.yy","order":4,"resourceVersion":"1.0","name":"Splash","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Control Objects/Splash.yy","order":4,"resourceVersion":"1.0","name":"Splash","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/GUI Sounds.yy","order":1,"resourceVersion":"1.0","name":"GUI Sounds","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
