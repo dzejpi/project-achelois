@@ -17,19 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player Related",
-    "path": "folders/Objects/Player Related.yy",
+    "name": "Suface Objects",
+    "path": "folders/Objects/Suface Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_SubmarineGUI",
+  "name": "obj_SurfaceParent",
   "tags": [],
   "resourceType": "GMObject",
 }

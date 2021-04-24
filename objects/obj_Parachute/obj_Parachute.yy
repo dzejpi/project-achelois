@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_LandingParachute",
+    "path": "sprites/spr_LandingParachute/spr_LandingParachute.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,18 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player Related",
-    "path": "folders/Objects/Player Related.yy",
+    "name": "Descend",
+    "path": "folders/Objects/Player Related/Descend.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_SubmarineGUI",
+  "name": "obj_Parachute",
   "tags": [],
   "resourceType": "GMObject",
 }

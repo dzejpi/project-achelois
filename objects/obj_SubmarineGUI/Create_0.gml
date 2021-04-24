@@ -6,13 +6,13 @@ buttonTextColor = make_colour_rgb(230, 231, 240);
 shadowTextColor = make_colour_rgb(128, 123, 122);
 
 isFlechetteSelected = false;
-flechetteAmmo = 2500;
+flechetteAmmo = "XXX";
 
-isTorpedoSelected = true;
-torpedoAmmo = 38;
+isTorpedoSelected = false;
+torpedoAmmo = "XXX";
 
-submarineDepth = -10250;
-activeText = "I will be your guidenance here."
+submarineDepth = "XXX";
+activeText = "-"
 
 flechetteXPos = 608;
 flechetteYPos = 282;

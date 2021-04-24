@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 1,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"78711158-6b53-47e3-8ea4-877513815229","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"78711158-6b53-47e3-8ea4-877513815229","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"LayerId":{"name":"b680cb1e-6809-4e09-9185-2b568a97a0e2","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_LandingSubmarine","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"resourceVersion":"1.0","name":"78711158-6b53-47e3-8ea4-877513815229","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2efc6cf8-0709-40b3-ae7d-a0d88f68c2a1","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2efc6cf8-0709-40b3-ae7d-a0d88f68c2a1","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"LayerId":{"name":"ae778089-2941-4527-80d3-61c4315a6cbc","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_LandingSubmarine","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"resourceVersion":"1.0","name":"2efc6cf8-0709-40b3-ae7d-a0d88f68c2a1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_LandingSubmarine","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ca365738-530e-4f77-8b13-3856fa3ba49a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"78711158-6b53-47e3-8ea4-877513815229","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"163dbc2b-14b9-4386-95a6-b2706bedb045","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2efc6cf8-0709-40b3-ae7d-a0d88f68c2a1","path":"sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
+    "xorigin": 32,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b680cb1e-6809-4e09-9185-2b568a97a0e2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae778089-2941-4527-80d3-61c4315a6cbc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
