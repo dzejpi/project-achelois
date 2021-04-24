@@ -7,7 +7,7 @@ shadowTextColor = make_colour_rgb(128, 123, 122);
 isFlechetteSelected = false;
 flechetteAmmo = 2500;
 
-isTorpedoSelected = false;
+isTorpedoSelected = true;
 torpedoAmmo = 38;
 
 submarineDepth = -10250;

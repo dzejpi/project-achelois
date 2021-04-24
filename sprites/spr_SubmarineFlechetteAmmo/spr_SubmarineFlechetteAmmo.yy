@@ -24,9 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"aedddfd0-b6c4-4fbe-9028-f482a9f99cf2","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aedddfd0-b6c4-4fbe-9028-f482a9f99cf2","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"LayerId":{"name":"a11058d8-65a8-4bb2-916c-52365e33fdcc","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SubmarineFlechetteAmmo","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","name":"aedddfd0-b6c4-4fbe-9028-f482a9f99cf2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8da5a091-5151-480c-a674-be113f0d949a","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8da5a091-5151-480c-a674-be113f0d949a","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"LayerId":{"name":"d783d650-ef29-48e4-8f55-dc31a3eb4c10","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SubmarineFlechetteAmmo","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","name":"8da5a091-5151-480c-a674-be113f0d949a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ddf559da-8eac-4aea-8c4f-2a5824fd0994","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ddf559da-8eac-4aea-8c4f-2a5824fd0994","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"LayerId":{"name":"d783d650-ef29-48e4-8f55-dc31a3eb4c10","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SubmarineFlechetteAmmo","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","name":"ddf559da-8eac-4aea-8c4f-2a5824fd0994","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_SubmarineFlechetteAmmo","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"39faca6b-b799-42be-8503-2bf11ab02b21","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aedddfd0-b6c4-4fbe-9028-f482a9f99cf2","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"03e604c1-abd0-4ab5-acd3-b2e3cb286eed","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8da5a091-5151-480c-a674-be113f0d949a","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bdc9bd19-b701-4867-8ddc-33918e1d628f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ddf559da-8eac-4aea-8c4f-2a5824fd0994","path":"sprites/spr_SubmarineFlechetteAmmo/spr_SubmarineFlechetteAmmo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a11058d8-65a8-4bb2-916c-52365e33fdcc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d783d650-ef29-48e4-8f55-dc31a3eb4c10","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

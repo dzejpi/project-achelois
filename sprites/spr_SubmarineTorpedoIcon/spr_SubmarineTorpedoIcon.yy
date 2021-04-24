@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"03763227-91a1-4017-badd-0d46bde0bf0b","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"03763227-91a1-4017-badd-0d46bde0bf0b","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"LayerId":{"name":"177646d0-a113-439a-b3f7-2240059db19f","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SubmarineTorpedoIcon","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"resourceVersion":"1.0","name":"03763227-91a1-4017-badd-0d46bde0bf0b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"81a1861d-be3d-4493-9ac7-1280b50bb35b","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"81a1861d-be3d-4493-9ac7-1280b50bb35b","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"LayerId":{"name":"c88dcc65-c03a-4dfe-a89a-7b4278fa787d","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SubmarineTorpedoIcon","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"resourceVersion":"1.0","name":"81a1861d-be3d-4493-9ac7-1280b50bb35b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_SubmarineTorpedoIcon","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6af76ca7-1713-4787-99d1-439e73744ade","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03763227-91a1-4017-badd-0d46bde0bf0b","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fd351f1c-b1ff-4b56-84a7-4e0ac2f309f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"81a1861d-be3d-4493-9ac7-1280b50bb35b","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"177646d0-a113-439a-b3f7-2240059db19f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c88dcc65-c03a-4dfe-a89a-7b4278fa787d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
