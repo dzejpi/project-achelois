@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Operations on the ground
+// This object has Y on top, we need to adjust so the bottom is registered
 if !place_meeting(x, y, obj_SurfaceParent)
 {
 	vspeed = 1;
@@ -9,5 +9,7 @@ if !place_meeting(x, y, obj_SurfaceParent)
 	{
 		landed = true;
 		vspeed = 0;
+		
+		obj_Parachute.landed = true;
 	}
 }

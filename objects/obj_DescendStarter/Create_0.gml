@@ -12,6 +12,8 @@ instance_create_depth((camera_get_view_width(view_camera[0]) / 2), (dialogYDista
 instance_create_depth((camera_get_view_width(view_camera[0]) / 2), (dialogYDistance * 3), 0, obj_DialogD3);
 instance_create_depth((camera_get_view_width(view_camera[0]) / 2), (dialogYDistance * 4), 0, obj_DialogD4);
 
+instance_create_depth((camera_get_view_width(view_camera[0]) / 2), (dialogYDistance * 8), 0, obj_DescendGround);
+
 /*
 instance_create_depth((camera_get_view_width(view_camera[0]) / 2), (dialogYDistance * 5), 0, obj_DialogD5);
 instance_create_depth((camera_get_view_width(view_camera[0]) / 2), (dialogYDistance * 6), 0, obj_DialogD6);
