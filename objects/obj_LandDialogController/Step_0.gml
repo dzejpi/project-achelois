@@ -31,6 +31,7 @@ if timeBetweenDialogs = 0
 		instance_create_depth(obj_LandingSubmarine.x, obj_LandingSubmarine.y, 0, obj_DialogD11);
 		timeBetweenDialogs = setDialogsTime;
 		dialogsTriggered += 1;
+		obj_LandingSubmarine.permittedToDig = true;
 	}
 } else
 {

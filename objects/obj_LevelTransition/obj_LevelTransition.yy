@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_LandingSubmarine",
-    "path": "sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_PlayerParent",
-    "path": "objects/obj_PlayerParent/obj_PlayerParent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -32,10 +26,10 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Descend",
-    "path": "folders/Objects/Player Related/Descend.yy",
+    "path": "folders/Objects/Control Objects/Descend.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_LandingSubmarine",
+  "name": "obj_LevelTransition",
   "tags": [],
   "resourceType": "GMObject",
 }

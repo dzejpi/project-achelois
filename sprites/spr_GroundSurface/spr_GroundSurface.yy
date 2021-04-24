@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 320,
-    "yorigin": 37,
+    "yorigin": 36,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_GroundSurface","path":"sprites/spr_GroundSurface/spr_GroundSurface.yy",},

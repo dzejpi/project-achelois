@@ -95,6 +95,20 @@ function scr_ReturnProperText(textPiece){
 			audio_play_sound(sound_DialogD11, 10, false);
 		
 		break;
+		
+		case "d12":
+		
+			text = "Launching the nuclear drill."
+			audio_play_sound(sound_DialogD12, 10, false);
+		
+		break;
+		
+		case "d13":
+		
+			text = "Drill heated. Melting through the crust."
+			audio_play_sound(sound_DialogD13, 10, false);
+		
+		break;
 	}
 	
 	obj_SubmarineGUI.activeText = text;

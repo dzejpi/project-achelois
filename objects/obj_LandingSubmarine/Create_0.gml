@@ -11,4 +11,7 @@ instance_create_depth(x, y, 0, obj_LandingSubmarineUnder);
 
 redundancyCheck = false;
 
-envelopeHeaded = false;
+envelopeHeating = false;
+heatingAlpha = 0;
+
+envelopeHeated = false;
