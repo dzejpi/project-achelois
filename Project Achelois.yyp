@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_SubmarineLight","path":"objects/obj_SubmarineLight/obj_SubmarineLight.yy",},"order":2,},
     {"id":{"name":"spr_SubmarineGuiEdge","path":"sprites/spr_SubmarineGuiEdge/spr_SubmarineGuiEdge.yy",},"order":4,},
     {"id":{"name":"spr_SubmarineTorpedoIcon","path":"sprites/spr_SubmarineTorpedoIcon/spr_SubmarineTorpedoIcon.yy",},"order":10,},
     {"id":{"name":"spr_SubmarineFlechetteIcon","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},"order":1,},
