@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 90,
-    "yorigin": 31,
+    "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Submarine","path":"sprites/spr_Submarine/spr_Submarine.yy",},

@@ -123,4 +123,55 @@ if isControllable
 	{
 		obj_SubmarineGUI.isFlechetteSelected = false;
 	}
+	
+	if armed && mouse_check_button(mb_left)
+	{
+		if flechettesSelected
+		{
+			if flechetteCooldown = 0
+			{
+				if facingRight
+				{
+					instance_create_depth(x + 10, y - 3, 0, obj_Flechette);
+				} else
+				{
+					instance_create_depth(x - 15, y - 3, 0, obj_Flechette);
+				}
+				
+				flechetteCooldown = 10;
+			}
+		}
+		
+		if torpedoSelected
+		{
+			if torpedoCooldown = 0
+			{
+				if facingRight
+				{
+					instance_create_depth(x + 14, y + 5, 0, obj_Torpedo);
+				} else
+				{
+					instance_create_depth(x - 30, y + 5, 0, obj_Torpedo);
+				}
+				
+				torpedoCooldown = 50;	
+			}
+		}
+	}
+	
+	if torpedoCooldown > 0
+	{
+		torpedoCooldown -= 1;
+	} else
+	{
+		torpedoCooldown = 0;
+	}
+	
+	if flechetteCooldown > 0
+	{
+		flechetteCooldown -= 1;
+	} else
+	{
+		flechetteCooldown = 0;
+	}
 }

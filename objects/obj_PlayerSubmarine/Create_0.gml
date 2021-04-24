@@ -13,4 +13,7 @@ armed = false;
 torpedoSelected = false;
 flechettesSelected = false;
 
+torpedoCooldown = 0;
+flechetteCooldown = 0;
+
 doublePressPrevention = 0;
