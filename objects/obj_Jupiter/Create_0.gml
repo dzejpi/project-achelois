@@ -4,10 +4,13 @@ depth = 10;
 
 if (room == room_MainMenu)
 {
-    x = -50;
-	y = -50;
+	global.jupiterXPos = -50;
+	global.jupiterYPos = -50;
+
+    x = global.jupiterXPos;
+	y = global.jupiterYPos;
 } else
 {
-	x = 100;
-	y = 200;
+	x = global.jupiterXPos;
+	y = global.jupiterYPos;
 }

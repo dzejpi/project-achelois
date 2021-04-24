@@ -1,18 +1,21 @@
-/// @description Insert description here
-// You can write your code in this editor
-if (room == room_MainMenu){
-	if landed = false
+/// @description Keep it moving between the rooms
+if landed = false
+{
+	if point_distance(x, y, 100, 200) > 1
 	{
-		if point_distance(x, y, 100, 200) > 1
-		{
-			move_towards_point(100, 200, 0.25);
-		} else 
-		{
-			speed = 0;
-			landed = true;
-		}
-	} else
+		move_towards_point(100, 200, 0.5);
+		
+		global.jupiterXPos = x;
+		global.jupiterYPos = y;
+	} else 
 	{
-		speed = 0.01;
+		global.jupiterXPos = x;
+		global.jupiterYPos = y;
+		
+		speed = 0;
+		landed = true;
 	}
+} else
+{
+	speed = 0.25;
 }
