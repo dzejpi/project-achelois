@@ -131,7 +131,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "font_MainSognarak",
+  "name": "font_MainSognarakHuge",
   "tags": [],
   "resourceType": "GMFont",
 }
