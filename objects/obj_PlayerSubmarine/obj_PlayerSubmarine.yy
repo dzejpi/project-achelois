@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player Related",
-    "path": "folders/Objects/Player Related.yy",
+    "name": "Underwater",
+    "path": "folders/Objects/Player Related/Underwater.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_PlayerSubmarine",

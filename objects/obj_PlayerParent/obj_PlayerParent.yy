@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player Related",
-    "path": "folders/Objects/Player Related.yy",
+    "name": "Shared",
+    "path": "folders/Objects/Player Related/Shared.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_PlayerParent",

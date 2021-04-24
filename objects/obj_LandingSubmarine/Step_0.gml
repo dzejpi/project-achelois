@@ -9,7 +9,13 @@ if !place_meeting(x, y, obj_SurfaceParent)
 	{
 		landed = true;
 		vspeed = 0;
+		permittedToDig = true;
 		
-		obj_Parachute.landed = true;
+		if !redundancyCheck
+		{
+			instance_create_depth(x, y, 0, obj_LandDialogController);
+			obj_Parachute.landed = true;		
+			redundancyCheck = true;
+		}
 	}
 }
