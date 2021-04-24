@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_LandingSubmarine",
-    "path": "sprites/spr_LandingSubmarine/spr_LandingSubmarine.yy",
+    "name": "spr_DummySprite",
+    "path": "sprites/spr_DummySprite/spr_DummySprite.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_PlayerParent",
-    "path": "objects/obj_PlayerParent/obj_PlayerParent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,16 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_PlayerParent","path":"objects/obj_PlayerParent/obj_PlayerParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Descend",
-    "path": "folders/Objects/Player Related/Descend.yy",
+    "name": "Parent",
+    "path": "folders/Objects/Dialog Triggers/Parent.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_LandingSubmarine",
+  "name": "obj_DialogParent",
   "tags": [],
   "resourceType": "GMObject",
 }

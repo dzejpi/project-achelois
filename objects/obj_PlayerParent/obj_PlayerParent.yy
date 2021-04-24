@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_Submarine",
-    "path": "sprites/spr_Submarine/spr_Submarine.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_PlayerParent",
-    "path": "objects/obj_PlayerParent/obj_PlayerParent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,10 +17,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +25,7 @@
     "path": "folders/Objects/Player Related.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_PlayerSubmarine",
+  "name": "obj_PlayerParent",
   "tags": [],
   "resourceType": "GMObject",
 }

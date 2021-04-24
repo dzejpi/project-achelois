@@ -12,7 +12,7 @@ isTorpedoSelected = false;
 torpedoAmmo = "XXX";
 
 submarineDepth = "XXX";
-activeText = "-";
+activeText = "";
 countingTextDown = false;
 remainingSteps = 0;
 talking = false;
