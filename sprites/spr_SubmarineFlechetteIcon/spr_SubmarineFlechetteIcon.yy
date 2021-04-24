@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"71b06467-be38-4808-a205-0ee7de1cc73b","path":"sprites/spr_SubmarineFlachetteIcon/spr_SubmarineFlachetteIcon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"71b06467-be38-4808-a205-0ee7de1cc73b","path":"sprites/spr_SubmarineFlachetteIcon/spr_SubmarineFlachetteIcon.yy",},"LayerId":{"name":"efebff18-35e2-49c9-9ef9-b5aff0bfd597","path":"sprites/spr_SubmarineFlachetteIcon/spr_SubmarineFlachetteIcon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SubmarineFlachetteIcon","path":"sprites/spr_SubmarineFlachetteIcon/spr_SubmarineFlachetteIcon.yy",},"resourceVersion":"1.0","name":"71b06467-be38-4808-a205-0ee7de1cc73b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"71b06467-be38-4808-a205-0ee7de1cc73b","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"71b06467-be38-4808-a205-0ee7de1cc73b","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},"LayerId":{"name":"efebff18-35e2-49c9-9ef9-b5aff0bfd597","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SubmarineFlechetteIcon","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},"resourceVersion":"1.0","name":"71b06467-be38-4808-a205-0ee7de1cc73b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SubmarineFlachetteIcon","path":"sprites/spr_SubmarineFlachetteIcon/spr_SubmarineFlachetteIcon.yy",},
+    "spriteId": {"name":"spr_SubmarineFlechetteIcon","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8eab8fc5-fafa-4cb2-9ac8-98cf87b938f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"71b06467-be38-4808-a205-0ee7de1cc73b","path":"sprites/spr_SubmarineFlachetteIcon/spr_SubmarineFlachetteIcon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8eab8fc5-fafa-4cb2-9ac8-98cf87b938f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"71b06467-be38-4808-a205-0ee7de1cc73b","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SubmarineFlachetteIcon","path":"sprites/spr_SubmarineFlachetteIcon/spr_SubmarineFlachetteIcon.yy",},
+    "parent": {"name":"spr_SubmarineFlechetteIcon","path":"sprites/spr_SubmarineFlechetteIcon/spr_SubmarineFlechetteIcon.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_SubmarineFlachetteIcon",
+    "name": "spr_SubmarineFlechetteIcon",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Submarine GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_SubmarineFlachetteIcon",
+  "name": "spr_SubmarineFlechetteIcon",
   "tags": [],
   "resourceType": "GMSprite",
 }
