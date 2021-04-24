@@ -1,7 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"room_PlayDescend","path":"rooms/room_PlayDescend/room_PlayDescend.yy",},"order":3,},
     {"id":{"name":"obj_MenuStarter","path":"objects/obj_MenuStarter/obj_MenuStarter.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"room_PlayUnderwater","path":"rooms/room_PlayUnderwater/room_PlayUnderwater.yy",},"order":2,},
+    {"id":{"name":"room_MainMenu","path":"rooms/room_MainMenu/room_MainMenu.yy",},"order":1,},
+    {"id":{"name":"room_SplashScreen","path":"rooms/room_SplashScreen/room_SplashScreen.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -18,7 +21,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_MainMenu","path":"rooms/room_MainMenu/room_MainMenu.yy",},},
+    {"roomId":{"name":"room_PlayDescend","path":"rooms/room_PlayDescend/room_PlayDescend.yy",},},
+    {"roomId":{"name":"room_PlayUnderwater","path":"rooms/room_PlayUnderwater/room_PlayUnderwater.yy",},},
+    {"roomId":{"name":"room_SplashScreen","path":"rooms/room_SplashScreen/room_SplashScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
