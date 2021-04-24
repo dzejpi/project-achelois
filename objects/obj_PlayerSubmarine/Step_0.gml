@@ -1,13 +1,17 @@
 /// @description Controls
 if isControllable
 {
+	if doublePressPrevention > 0
+	{
+		doublePressPrevention -= 1;
+	}
+	
 	// Left and right
-	if keyboard_check(vk_left)
+	if keyboard_check(vk_left) || keyboard_check(ord("A"))
 	{
 		hspeed -= 0.02;
-	} else if keyboard_check(vk_right)
+	} else if keyboard_check(vk_right) || keyboard_check(ord("D"))
 	{
-		
 		hspeed += 0.02;
 	} else
 	{
@@ -29,10 +33,10 @@ if isControllable
 	}
 
 	// Up and down
-	if keyboard_check(vk_up)
+	if keyboard_check(vk_up) || keyboard_check(ord("W"))
 	{
 		vspeed -= 0.02;
-	} else if keyboard_check(vk_down)
+	} else if keyboard_check(vk_down) || keyboard_check(ord("S"))
 	{
 		vspeed += 0.02;
 	} else
@@ -63,5 +67,56 @@ if isControllable
 		{
 			image_xscale -= 0.2;
 		}
+	}
+	
+	if keyboard_check(vk_space) && doublePressPrevention = 0
+	{
+		doublePressPrevention = 30;
+		
+		if armed
+		{
+			armed = false;
+			torpedoSelected = false;
+			flechettesSelected = false;
+		} else
+		{
+			armed = true;
+			torpedoSelected = false;
+			flechettesSelected = true;
+		}
+	}
+	
+	if keyboard_check(vk_control) || keyboard_check(vk_shift) 
+	{
+		if armed && doublePressPrevention = 0
+		{
+			doublePressPrevention = 30;
+			
+			if torpedoSelected
+			{
+				torpedoSelected = false;
+				flechettesSelected = true;
+			} else if flechettesSelected
+			{
+				torpedoSelected = true;
+				flechettesSelected = false;
+			}
+		}
+	}
+	
+	if torpedoSelected
+	{
+		obj_SubmarineGUI.isTorpedoSelected = true;
+	} else
+	{
+		obj_SubmarineGUI.isTorpedoSelected = false;
+	}
+	
+	if flechettesSelected
+	{
+		obj_SubmarineGUI.isFlechetteSelected = true;
+	} else
+	{
+		obj_SubmarineGUI.isFlechetteSelected = false;
 	}
 }

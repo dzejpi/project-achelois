@@ -8,3 +8,9 @@ flipped = true;
 
 // Locked for cutscenes.
 isControllable = true;
+
+armed = false;
+torpedoSelected = false;
+flechettesSelected = false;
+
+doublePressPrevention = 0;
