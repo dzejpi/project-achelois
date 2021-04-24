@@ -13,8 +13,8 @@
   "soundFile": "sound_SamGunsDeactivated.wav",
   "duration": 1.855952,
   "parent": {
-    "name": "GUI Sounds",
-    "path": "folders/Sounds/GUI Sounds.yy",
+    "name": "SAM GUI",
+    "path": "folders/Sounds/GUI Sounds/SAM GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sound_SamGunsDeactivated",

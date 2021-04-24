@@ -59,12 +59,15 @@ draw_sprite(spr_SubmarineSpeakerBG, 0, x, y);
 draw_sprite(spr_SubmarineTextBG, 0, x, y);
 
 // Draw text
-draw_set_font(font_MainSognarak);
+if talking
+{
+	draw_set_font(font_MainSognarak);
 
-draw_set_colour(shadowTextColor);
-draw_text(textXPos + 1, textYPos + 1, activeText);
-draw_set_colour(buttonTextColor);
-draw_text(textXPos, textYPos, activeText);
+	draw_set_colour(shadowTextColor);
+	draw_text(textXPos + 1, textYPos + 1, activeText);
+	draw_set_colour(buttonTextColor);
+	draw_text(textXPos, textYPos, activeText);
+}
 
 // Draw S.A.M.
 draw_sprite(spr_SubmarineSam, 0, x, y);
