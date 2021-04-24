@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 9,
-  "bbox_right": 123,
+  "bbox_left": 4,
+  "bbox_right": 118,
   "bbox_top": 1,
   "bbox_bottom": 41,
   "HTile": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c69548d6-defe-40cf-9e79-8436a301ec7d","path":"sprites/spr_Submarine/spr_Submarine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c69548d6-defe-40cf-9e79-8436a301ec7d","path":"sprites/spr_Submarine/spr_Submarine.yy",},"LayerId":{"name":"2e2c2420-854c-4497-8e84-863e90c55222","path":"sprites/spr_Submarine/spr_Submarine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Submarine","path":"sprites/spr_Submarine/spr_Submarine.yy",},"resourceVersion":"1.0","name":"c69548d6-defe-40cf-9e79-8436a301ec7d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fead090f-75b7-4364-af06-bea97fd36193","path":"sprites/spr_Submarine/spr_Submarine.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fead090f-75b7-4364-af06-bea97fd36193","path":"sprites/spr_Submarine/spr_Submarine.yy",},"LayerId":{"name":"f91e19e3-a483-4253-923b-027c2bc61802","path":"sprites/spr_Submarine/spr_Submarine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Submarine","path":"sprites/spr_Submarine/spr_Submarine.yy",},"resourceVersion":"1.0","name":"fead090f-75b7-4364-af06-bea97fd36193","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_Submarine","path":"sprites/spr_Submarine/spr_Submarine.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"028312b3-d818-416c-890f-b2986d415b22","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c69548d6-defe-40cf-9e79-8436a301ec7d","path":"sprites/spr_Submarine/spr_Submarine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4c503c88-1ab2-46a9-9dc9-76012ebf6d22","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fead090f-75b7-4364-af06-bea97fd36193","path":"sprites/spr_Submarine/spr_Submarine.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 81,
+    "xorigin": 90,
     "yorigin": 31,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2e2c2420-854c-4497-8e84-863e90c55222","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f91e19e3-a483-4253-923b-027c2bc61802","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

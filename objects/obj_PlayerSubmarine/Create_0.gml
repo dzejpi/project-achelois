@@ -1,6 +1,10 @@
 /// @description Start a player controlled submarine
-instance_create_depth(x, y, 0, obj_SubmarineGUI);
+depth = 10;
+vspeed = 0;
+hspeed = 0;
+
+facingRight = true;
+flipped = true;
 
 // Locked for cutscenes.
-isControllable = false;
-
+isControllable = true;

@@ -1,4 +1,5 @@
 /// @description Set GUI size
+depth = 0;
 display_set_gui_size(640, 360);
 
 buttonTextColor = make_colour_rgb(230, 231, 240);

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Submarine",
+    "path": "sprites/spr_Submarine/spr_Submarine.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
