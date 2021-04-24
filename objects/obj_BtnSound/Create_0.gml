@@ -1,5 +1,6 @@
 /// @description Name properly
 event_inherited();
-buttonName = "Sound: off.";
+buttonName = "Sound: on.";
 
-selectableButton = false;
+// Start with sounds on.
+buttonSelected = true;

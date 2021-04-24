@@ -10,3 +10,5 @@ image_speed = 0;
 
 // True if selectable
 selectableButton = true;
+
+doubleClickPrevention = 0;

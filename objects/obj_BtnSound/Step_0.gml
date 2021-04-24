@@ -1,8 +1,13 @@
-/// @description Switch to fullscreen
+/// @description Switch sound
 event_inherited();
 
-// Switch to fullscreen
+// Mute GUI 
 if buttonSelected
 {
-	// TODO
+	buttonName = "Sound: on.";
+	audio_group_set_gain(sound_group, 1, 2);
+} else
+{
+	buttonName = "Sound: off.";
+	audio_group_set_gain(sound_group, 0, 2);
 }
