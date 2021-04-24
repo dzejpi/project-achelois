@@ -4,11 +4,10 @@ if isControllable
 	// Left and right
 	if keyboard_check(vk_left)
 	{
-		facingRight = false;
 		hspeed -= 0.02;
 	} else if keyboard_check(vk_right)
 	{
-		facingRight = true;
+		
 		hspeed += 0.02;
 	} else
 	{
@@ -19,6 +18,14 @@ if isControllable
 		{
 			hspeed += 0.02;
 		}
+	}
+	
+	if mouse_x < x
+	{
+		facingRight = false;
+	} else
+	{
+		facingRight = true;
 	}
 
 	// Up and down
@@ -41,13 +48,17 @@ if isControllable
 	
 	// Flip submarine
 	if facingRight
-	{
+	{	
+		//image_angle = point_direction(x, y, mouse_x, mouse_y);
+		
 		if image_xscale < 1
 		{
 			image_xscale += 0.2;
 		}
 	} else
-	{
+	{	
+		//image_angle = point_direction(x, y, mouse_x, mouse_y) + 180;
+		
 		if image_xscale > -1
 		{
 			image_xscale -= 0.2;
