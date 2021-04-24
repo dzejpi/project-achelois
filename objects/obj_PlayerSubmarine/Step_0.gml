@@ -69,7 +69,7 @@ if isControllable
 		}
 	}
 	
-	if keyboard_check(vk_tab) && doublePressPrevention = 0
+	if keyboard_check(vk_space) && doublePressPrevention = 0
 	{
 		doublePressPrevention = 30;
 		
