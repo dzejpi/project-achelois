@@ -1,6 +1,9 @@
 /// @description Menu room creation
 depth = 1;
 
+audio_group_load(sound_group);
+audio_group_load(music_group);
+
 distanceBetweenButtons = 50;
 instance_create_depth(x, y, 0, obj_WindowSizeController);
 menuTextColor = make_colour_rgb(230, 231, 240);
