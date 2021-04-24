@@ -15,6 +15,8 @@ xMiddlePosition = camera_get_view_width(view_camera[0]) / 2;
 // Shift a little because of title
 yMiddlePosition = 20 + (camera_get_view_height(view_camera[0]) / 2);
 
+instance_create_depth(100, -100, 0, obj_Jupiter);
+
 instance_create_depth(xMiddlePosition, yMiddlePosition - distanceBetweenButtons * 1, 0, obj_BtnStartGame);
 instance_create_depth(xMiddlePosition, yMiddlePosition - distanceBetweenButtons * 0, 0, obj_BtnSound);
 instance_create_depth(xMiddlePosition, yMiddlePosition + distanceBetweenButtons * 1, 0, obj_BtnMusic);
