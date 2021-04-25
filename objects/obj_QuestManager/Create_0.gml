@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-activeQuest = "1";
+activeQuest = 1;

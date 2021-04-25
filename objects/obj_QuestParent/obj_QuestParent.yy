@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_QuestMark",
+    "path": "sprites/spr_QuestMark/spr_QuestMark.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -19,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_PlayerSubmarine","path":"objects/obj_PlayerSubmarine/obj_PlayerSubmarine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
