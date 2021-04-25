@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0ed96f88-1d0a-4604-ad56-014195695cb6","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0ed96f88-1d0a-4604-ad56-014195695cb6","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"LayerId":{"name":"81ebe777-0d8f-475b-975f-85258f0cd936","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_UnderwaterEdgeSlantFour","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"resourceVersion":"1.0","name":"0ed96f88-1d0a-4604-ad56-014195695cb6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"917f0c1e-5387-4885-bcae-047594734739","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"917f0c1e-5387-4885-bcae-047594734739","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"LayerId":{"name":"0571cf13-c38b-4d97-b4df-15c40498e3c5","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_UnderwaterEdgeSlantFour","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"resourceVersion":"1.0","name":"917f0c1e-5387-4885-bcae-047594734739","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_UnderwaterEdgeSlantFour","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f53b4133-08fa-43b5-bc44-5231bee4ce2b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ed96f88-1d0a-4604-ad56-014195695cb6","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"219ca9b2-a707-4792-9372-052e7a5315e9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"917f0c1e-5387-4885-bcae-047594734739","path":"sprites/spr_UnderwaterEdgeSlantFour/spr_UnderwaterEdgeSlantFour.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"81ebe777-0d8f-475b-975f-85258f0cd936","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0571cf13-c38b-4d97-b4df-15c40498e3c5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
