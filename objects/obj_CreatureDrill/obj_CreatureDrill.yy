@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_creatureCreepyFace",
-    "path": "sprites/spr_creatureCreepyFace/spr_creatureCreepyFace.yy",
+    "name": "spr_creatureDrill",
+    "path": "sprites/spr_creatureDrill/spr_creatureDrill.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Creatures.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_CreatureCreepyFace",
+  "name": "obj_CreatureDrill",
   "tags": [],
   "resourceType": "GMObject",
 }
