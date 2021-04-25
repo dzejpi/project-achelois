@@ -14,9 +14,9 @@ In order to open the game, you need to have a Game Maker. This game was made usi
 All graphic assets and their project files are in the `_graphics` folder. Due to the nature of Ludum Dare, assets can be a little disorganised and a lot of assets were edited after exported, so sometimes you can notice they are different from the project file.
 
 ### Music & Sounds
-If you want to check the music and sound files, you will need:
+You can find all music and sound resources in the `_sound` folder. If you want to check the music and sound project files, you will need:
 
-* FL Studio
+* FL Studio; I have the Producer Edition v20.8.3.
 * These plugins installed:
   * Kairatune - completely free.
   * VST Speek 3 - completely free.
