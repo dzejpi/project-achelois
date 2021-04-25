@@ -40,6 +40,7 @@
     {"id":{"name":"obj_PlayerParent","path":"objects/obj_PlayerParent/obj_PlayerParent.yy",},"order":0,},
     {"id":{"name":"obj_Quest11","path":"objects/obj_Quest11/obj_Quest11.yy",},"order":9,},
     {"id":{"name":"sound_DialogU10","path":"sounds/sound_DialogU10/sound_DialogU10.yy",},"order":13,},
+    {"id":{"name":"obj_CreatFish","path":"objects/obj_CreatFish/obj_CreatFish.yy",},"order":1,},
     {"id":{"name":"spr_SubmarineTextBG","path":"sprites/spr_SubmarineTextBG/spr_SubmarineTextBG.yy",},"order":7,},
     {"id":{"name":"sound_DialogU19","path":"sounds/sound_DialogU19/sound_DialogU19.yy",},"order":8,},
     {"id":{"name":"spr_GroundUnder","path":"sprites/spr_GroundUnder/spr_GroundUnder.yy",},"order":2,},
@@ -66,6 +67,7 @@
     {"id":{"name":"obj_Parachute","path":"objects/obj_Parachute/obj_Parachute.yy",},"order":1,},
     {"id":{"name":"sound_DialogU1","path":"sounds/sound_DialogU1/sound_DialogU1.yy",},"order":0,},
     {"id":{"name":"obj_BtnFullScreen","path":"objects/obj_BtnFullScreen/obj_BtnFullScreen.yy",},"order":0,},
+    {"id":{"name":"spr_creatureFish","path":"sprites/spr_creatureFish/spr_creatureFish.yy",},"order":0,},
     {"id":{"name":"obj_BtnMusic","path":"objects/obj_BtnMusic/obj_BtnMusic.yy",},"order":4,},
     {"id":{"name":"obj_BtnQuitGame","path":"objects/obj_BtnQuitGame/obj_BtnQuitGame.yy",},"order":1,},
     {"id":{"name":"obj_Quest2","path":"objects/obj_Quest2/obj_Quest2.yy",},"order":0,},
@@ -227,6 +229,7 @@
     {"folderPath":"folders/Sprites/Underwater Environment.yy","order":9,"resourceVersion":"1.0","name":"Underwater Environment","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Underwater Objects/Edges.yy","order":2,"resourceVersion":"1.0","name":"Edges","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Underwater Environment/Edges.yy","order":3,"resourceVersion":"1.0","name":"Edges","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Creatures.yy","order":10,"resourceVersion":"1.0","name":"Creatures","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
