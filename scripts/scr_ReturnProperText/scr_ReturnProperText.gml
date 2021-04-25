@@ -127,14 +127,14 @@ function scr_ReturnProperText(textPiece){
 		// Underwater dialogs.
 		case "u1":
 		
-			text = "We are under water. Nice job."
+			text = "We are under water. Good job!"
 			audio_play_sound(sound_DialogU1, 10, false);
 		
 		break;
 		
 		case "u2":
 		
-			text = "Let’s examine few places."
+			text = "Let's examine few places."
 			audio_play_sound(sound_DialogU2, 10, false);
 		
 		break;

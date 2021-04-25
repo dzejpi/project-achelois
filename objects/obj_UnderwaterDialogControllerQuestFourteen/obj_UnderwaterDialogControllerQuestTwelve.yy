@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_QuestMark",
-    "path": "sprites/spr_QuestMark/spr_QuestMark.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_QuestParent",
-    "path": "objects/obj_QuestParent/obj_QuestParent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_PlayerSubmarine","path":"objects/obj_PlayerSubmarine/obj_PlayerSubmarine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Quests",
-    "path": "folders/Objects/Underwater Objects/Quests/Quests.yy",
+    "name": "Underwater",
+    "path": "folders/Objects/Control Objects/Underwater.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Quest12",
+  "name": "obj_UnderwaterDialogControllerQuestTwelve",
   "tags": [],
   "resourceType": "GMObject",
 }
