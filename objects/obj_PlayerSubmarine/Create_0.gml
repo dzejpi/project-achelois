@@ -13,6 +13,9 @@ armed = false;
 torpedoSelected = false;
 flechettesSelected = false;
 
+flechettesLeft = 2500;
+torpedoesLeft = 20;
+
 torpedoCooldown = 0;
 flechetteCooldown = 0;
 

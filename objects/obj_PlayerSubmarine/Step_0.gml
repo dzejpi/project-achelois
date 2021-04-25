@@ -128,13 +128,15 @@ if isControllable
 	{
 		if flechettesSelected
 		{
-			if flechetteCooldown = 0
+			if flechetteCooldown = 0 && flechettesLeft > 0
 			{
 				if facingRight
 				{
+					flechettesLeft--;
 					instance_create_depth(x + 10, y - 3, 0, obj_Flechette);
 				} else
 				{
+					flechettesLeft--;
 					instance_create_depth(x - 15, y - 3, 0, obj_Flechette);
 				}
 				
@@ -144,13 +146,15 @@ if isControllable
 		
 		if torpedoSelected
 		{
-			if torpedoCooldown = 0
+			if torpedoCooldown = 0 && torpedoesLeft > 0
 			{
 				if facingRight
 				{
+					torpedoesLeft--;
 					instance_create_depth(x + 14, y + 5, 0, obj_Torpedo);
 				} else
 				{
+					torpedoesLeft--;
 					instance_create_depth(x - 30, y + 5, 0, obj_Torpedo);
 				}
 				
@@ -173,5 +177,8 @@ if isControllable
 	} else
 	{
 		flechetteCooldown = 0;
-	}
+	}	
 }
+
+obj_SubmarineGUI.torpedoAmmo = torpedoesLeft;
+obj_SubmarineGUI.flechetteAmmo = flechettesLeft;
