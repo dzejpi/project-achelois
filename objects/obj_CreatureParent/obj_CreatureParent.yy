@@ -24,6 +24,8 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_UnderwaterEdgeLeft","path":"objects/obj_UnderwaterEdgeLeft/obj_UnderwaterEdgeLeft.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_UnderwaterEdgeRight","path":"objects/obj_UnderwaterEdgeRight/obj_UnderwaterEdgeRight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_UnderwaterEdgeTop","path":"objects/obj_UnderwaterEdgeTop/obj_UnderwaterEdgeTop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Flechette","path":"objects/obj_Flechette/obj_Flechette.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Torpedo","path":"objects/obj_Torpedo/obj_Torpedo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
