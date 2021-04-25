@@ -27,9 +27,26 @@ if isAlive && !isAttacking
 }
 
 // Creature attacks player
-if isAlive && !isAttacking
+if isAlive && isAttacking
 {
+	move_towards_point(obj_PlayerSubmarine.x, obj_PlayerSubmarine.y, creatureSpeed * 4);
 	
+	if place_meeting(x, y, obj_PlayerSubmarine)
+	{
+		if attackCooldown = 0
+		{
+			creatureDirection = point_direction(x, y, obj_PlayerSubmarine.x, obj_PlayerSubmarine.y);
+			direction = creatureDirection + 180;
+			speed = creatureSpeed * 2;
+			
+			obj_PlayerSubmarine.numberOfAttacks += 1;
+			
+			attackCooldown = 120;
+		} else
+		{
+			attackCooldown -= 1;
+		}
+	}
 }
 
 // Could be in else statement, but this makes it more readable.

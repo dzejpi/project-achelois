@@ -11,3 +11,4 @@ isAttacking = false;
 isScattering = false;
 
 decisionCooldown = 0;
+attackCooldown = 0;
