@@ -21,6 +21,7 @@
     {"id":{"name":"obj_CreditsStarter","path":"objects/obj_CreditsStarter/obj_CreditsStarter.yy",},"order":4,},
     {"id":{"name":"spr_FlechetteExplosion","path":"sprites/spr_FlechetteExplosion/spr_FlechetteExplosion.yy",},"order":5,},
     {"id":{"name":"obj_DescendUnderground","path":"objects/obj_DescendUnderground/obj_DescendUnderground.yy",},"order":2,},
+    {"id":{"name":"obj_BtnRestartGame","path":"objects/obj_BtnRestartGame/obj_BtnRestartGame.yy",},"order":5,},
     {"id":{"name":"spr_QuestMark","path":"sprites/spr_QuestMark/spr_QuestMark.yy",},"order":1,},
     {"id":{"name":"obj_DialogParent","path":"objects/obj_DialogParent/obj_DialogParent.yy",},"order":0,},
     {"id":{"name":"sound_DialogD2","path":"sounds/sound_DialogD2/sound_DialogD2.yy",},"order":1,},

@@ -234,3 +234,14 @@ if (place_meeting(x + 2, y + vspeed + 2, obj_UnderwaterSurface))
 	vspeed = 0;
 }
 y += vspeed;
+
+if numberOfAttacks >= 10
+{
+	if !gameEnded
+	{
+		gameEnded = true;
+		isControllable = false;
+		scr_ReturnProperText("end1");
+		instance_create_depth(x, y, 0, obj_BtnRestartGame);
+	}
+}

@@ -6,10 +6,11 @@ hspeed = 0;
 facingRight = true;
 flipped = true;
 
-numberOfAttacks = 0;
+numberOfAttacks = 10;
 
 // Locked for cutscenes.
 isControllable = true;
+gameEnded = false;
 
 armed = false;
 torpedoSelected = false;
