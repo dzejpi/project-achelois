@@ -39,9 +39,14 @@ if isControllable
 	if mouse_x < x
 	{
 		facingRight = false;
+		obj_SubmarineLight.xIndentation = -54;
+		obj_SubmarineLight.yIndentation = 7;
 	} else
 	{
 		facingRight = true;
+		
+		obj_SubmarineLight.xIndentation = 54;
+		obj_SubmarineLight.yIndentation = 7;
 	}
 
 	// Up and down
