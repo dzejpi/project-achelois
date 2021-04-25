@@ -38,10 +38,10 @@ if !isAlive
 	// Creature is dead
 	if hspeed > 0
 	{
-		hspeed -= 0.005;
+		hspeed -= 0.001;
 	} else if hspeed < 0
 	{
-		hspeed += 0.005
+		hspeed += 0.001
 	}
 	else
 	{
@@ -50,8 +50,12 @@ if !isAlive
 	
 	if vspeed < 1
 	{
-		vspeed += 0.02;
-	} else
+		vspeed += 0.001;
+	} else if vspeed > 1
+	{
+		vspeed -= 0.001;
+	}
+	else
 	{
 		vspeed = 1;
 	}
