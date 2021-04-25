@@ -209,9 +209,9 @@ obj_SubmarineGUI.flechetteAmmo = flechettesLeft;
 
 // Collision prevention
 // Horizontal
-if (place_meeting(x + hspeed, y, obj_UnderwaterSurface))
+if (place_meeting(x + hspeed + 2, y + 2, obj_UnderwaterSurface))
 {
-	if !place_meeting(x + sign(hspeed), y, obj_UnderwaterSurface)
+	if !place_meeting(x + sign(hspeed) + 2, y + 2, obj_UnderwaterSurface)
 	{
 		x += sign(hspeed);
 	}
@@ -220,9 +220,9 @@ if (place_meeting(x + hspeed, y, obj_UnderwaterSurface))
 x += hspeed;
 
 // Vertical
-if (place_meeting(x, y + vspeed, obj_UnderwaterSurface))
+if (place_meeting(x + 2, y + vspeed + 2, obj_UnderwaterSurface))
 {
-	if !place_meeting(x, y + sign(vspeed), obj_UnderwaterSurface)
+	if !place_meeting(x + 2, y + sign(vspeed) + 2, obj_UnderwaterSurface)
 	{
 		y += sign(vspeed);
 	}
