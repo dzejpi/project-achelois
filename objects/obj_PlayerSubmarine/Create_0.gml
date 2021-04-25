@@ -20,3 +20,6 @@ torpedoCooldown = 0;
 flechetteCooldown = 0;
 
 doublePressPrevention = 0;
+
+torpedoDamage = 50;
+flechetteDamage = 10;

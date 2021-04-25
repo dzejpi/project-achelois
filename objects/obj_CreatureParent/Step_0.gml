@@ -1,7 +1,8 @@
 /// @description Behavior
-if isAlive
+// Creature responds peacefully
+if isAlive && !isAttacking
 {
-	// If creature close enough
+	// If creature close enough, but not trying to run away
 	if distance_to_point(obj_PlayerSubmarine.x, obj_PlayerSubmarine.y) < 100 && !isScattering
 	{
 		// Creature gets closer enough
@@ -10,24 +11,42 @@ if isAlive
 			move_towards_point(obj_PlayerSubmarine.x, obj_PlayerSubmarine.y, creatureSpeed);
 		} else
 		{
-			move_towards_point(obj_PlayerSubmarine.x, obj_PlayerSubmarine.y, creatureSpeed * -1);
+			creatureDirection = point_direction(x, y, obj_PlayerSubmarine.x, obj_PlayerSubmarine.y);
+			point_direction = creatureDirection + 180;
+			speed = creatureSpeed * 2;
 		}
 	}
 	
 	// Creature is trying to escape
-	if distance_to_point(obj_PlayerSubmarine.x, obj_PlayerSubmarine.y) < 100 && isScattering
+	if isScattering
 	{
 		creatureDirection = point_direction(x, y, obj_PlayerSubmarine.x, obj_PlayerSubmarine.y);
 		point_direction = creatureDirection + 180;
-		speed = creatureSpeed * 2;
+		speed = creatureSpeed * 10;
 	}
-} 
+}
+
+// Creature attacks player
+if isAlive && !isAttacking
+{
+	
+}
 
 // Could be in else statement, but this makes it more readable.
 if !isAlive
 {
 	// Creature is dead
-	hspeed = 0;
+	if hspeed > 0
+	{
+		hspeed -= 0.005;
+	} else if hspeed < 0
+	{
+		hspeed += 0.005
+	}
+	else
+	{
+		hspeed = 0
+	}
 	
 	if vspeed < 1
 	{

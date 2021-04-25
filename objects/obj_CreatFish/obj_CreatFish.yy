@@ -3,7 +3,7 @@
     "name": "spr_creatureFish",
     "path": "sprites/spr_creatureFish/spr_creatureFish.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

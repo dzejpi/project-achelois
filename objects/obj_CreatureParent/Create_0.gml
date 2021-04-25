@@ -3,7 +3,7 @@
 isCurious = true;
 isAggresivelyResponding = false;
 creatureHealth = 100;
-creatureSpeed = 0.25;
+creatureSpeed = 0.1;
 
 // Should not be changed.
 isAlive = true;
