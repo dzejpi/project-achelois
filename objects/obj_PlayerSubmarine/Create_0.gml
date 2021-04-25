@@ -6,7 +6,7 @@ hspeed = 0;
 facingRight = true;
 flipped = true;
 
-numberOfAttacks = 10;
+numberOfAttacks = 0;
 
 // Locked for cutscenes.
 isControllable = true;
