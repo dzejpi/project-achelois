@@ -72,7 +72,7 @@
     {"id":{"name":"font_MainSognarak","path":"fonts/font_MainSognarak/font_MainSognarak.yy",},"order":0,},
     {"id":{"name":"sound_DialogD10","path":"sounds/sound_DialogD10/sound_DialogD10.yy",},"order":9,},
     {"id":{"name":"obj_LandingSubmarineUnder","path":"objects/obj_LandingSubmarineUnder/obj_LandingSubmarineUnder.yy",},"order":2,},
-    {"id":{"name":"sound_DialogU201","path":"sounds/sound_DialogU201/sound_DialogU201.yy",},"order":10,},
+    {"id":{"name":"sound_DialogU21","path":"sounds/sound_DialogU21/sound_DialogU21.yy",},"order":10,},
     {"id":{"name":"obj_LandDialogController","path":"objects/obj_LandDialogController/obj_LandDialogController.yy",},"order":2,},
     {"id":{"name":"obj_LandingSubmarine","path":"objects/obj_LandingSubmarine/obj_LandingSubmarine.yy",},"order":0,},
     {"id":{"name":"sound_SamGunsReady","path":"sounds/sound_SamGunsReady/sound_SamGunsReady.yy",},"order":1,},

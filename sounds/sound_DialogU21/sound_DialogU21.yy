@@ -10,14 +10,14 @@
     "name": "sound_group",
     "path": "audiogroups/sound_group",
   },
-  "soundFile": "sound_DialogU201.wav",
+  "soundFile": "sound_DialogU21.wav",
   "duration": 3.70212,
   "parent": {
     "name": "Underwater Dialogs",
     "path": "folders/Sounds/Dialogs/Underwater Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_DialogU201",
+  "name": "sound_DialogU21",
   "tags": [],
   "resourceType": "GMSound",
 }
