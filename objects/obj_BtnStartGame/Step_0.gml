@@ -5,6 +5,5 @@ event_inherited();
 if buttonSelected
 {
 	//room_goto(room_PlayDescend);
-	//room_goto(room_PlayUnderwater);
-	room_goto(room_Credits);
+	room_goto(room_PlayUnderwater);
 }

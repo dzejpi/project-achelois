@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_Flechette",
-    "path": "sprites/spr_Flechette/spr_Flechette.yy",
+    "name": "spr_FlechetteExplosion",
+    "path": "sprites/spr_FlechetteExplosion/spr_FlechetteExplosion.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_ProjectileParent",
-    "path": "objects/obj_ProjectileParent/obj_ProjectileParent.yy",
+    "name": "obj_ExplosionParent",
+    "path": "objects/obj_ExplosionParent/obj_ExplosionParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_CreatureParent","path":"objects/obj_CreatureParent/obj_CreatureParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +31,7 @@
     "path": "folders/Objects/Player Related/Underwater/Projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Flechette",
+  "name": "obj_FlechetteExplosion",
   "tags": [],
   "resourceType": "GMObject",
 }
