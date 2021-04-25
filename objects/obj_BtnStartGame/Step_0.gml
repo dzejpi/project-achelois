@@ -4,6 +4,6 @@ event_inherited();
 // Start game if selected
 if buttonSelected
 {
-	//room_goto(room_PlayDescend);
-	room_goto(room_PlayUnderwater);
+	room_goto(room_PlayDescend);
+	//room_goto(room_PlayUnderwater);
 }
