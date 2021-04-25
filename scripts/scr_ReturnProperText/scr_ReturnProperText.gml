@@ -141,6 +141,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u3":
 		
+			// Quest 1
 			text = "This could be a clue."
 			audio_play_sound(sound_DialogU3, 10, false);
 		
@@ -148,6 +149,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u4":
 		
+			// Quest 2
 			text = "Nothing here."
 			audio_play_sound(sound_DialogU4, 10, false);
 		
@@ -155,13 +157,15 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u5":
 		
+			// Quest 3
 			text = "No interesting data here."
 			audio_play_sound(sound_DialogU5, 10, false);
 		
 		break;
 		
 		case "u6":
-		
+			
+			// Quest 4
 			text = "We must go deeper."
 			audio_play_sound(sound_DialogU6, 10, false);
 		
@@ -169,6 +173,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u7":
 		
+			// Quest 5
 			text = "This looks like an organic material."
 			audio_play_sound(sound_DialogU7, 10, false);
 		
@@ -176,6 +181,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u8":
 		
+			// Quest 6
 			text = "I get a lot of organic readings."
 			audio_play_sound(sound_DialogU8, 10, false);
 		
@@ -183,6 +189,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u9":
 		
+			// Quest 7
 			text = "I have an important information for you."
 			audio_play_sound(sound_DialogU9, 10, false);
 		
@@ -204,6 +211,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u12":
 		
+			// Quest 8
 			text = "Extraterrestrial life confirmed!"
 			audio_play_sound(sound_DialogU12, 10, false);
 		
@@ -211,6 +219,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u13":
 		
+			// Quest 9
 			text = "They use geothermal energy to survive."
 			audio_play_sound(sound_DialogU13, 10, false);
 		
@@ -218,13 +227,15 @@ function scr_ReturnProperText(textPiece){
 		
 		case "u14":
 		
+			// Quest 10
 			text = "This seems to be the bottom of the sea."
 			audio_play_sound(sound_DialogU14, 10, false);
 		
 		break;
 		
 		case "u15":
-		
+			
+			// Quest 11
 			text = "You have five minutes of oxygen left."
 			audio_play_sound(sound_DialogU15, 10, false);
 		
@@ -246,6 +257,7 @@ function scr_ReturnProperText(textPiece){
 
 		case "u18":
 		
+			// Quest 12
 			text = "What does this mean?"
 			audio_play_sound(sound_DialogU18, 10, false);
 		
@@ -266,7 +278,8 @@ function scr_ReturnProperText(textPiece){
 		break;
 		
 		case "u21":
-		
+			
+			// Quest 13
 			text = "We could learn something from them."
 			audio_play_sound(sound_DialogU21, 10, false);
 		
@@ -289,6 +302,7 @@ function scr_ReturnProperText(textPiece){
 		
 		case "end3":
 		
+			// Quest 14
 			text = "They are making oxygen for you!"
 			audio_play_sound(sound_DialogEnd3, 10, false);
 		
