@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-obj_PlayerSubmarine.hspeed = 0;
+//obj_PlayerSubmarine.hspeed = 0;

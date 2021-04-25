@@ -3,7 +3,7 @@
     "name": "spr_UnderwaterEdgeLeft",
     "path": "sprites/spr_UnderwaterEdgeLeft/spr_UnderwaterEdgeLeft.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

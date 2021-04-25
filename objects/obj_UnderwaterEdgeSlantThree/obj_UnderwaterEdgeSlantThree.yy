@@ -3,7 +3,7 @@
     "name": "spr_UnderwaterEdgeSlantThree",
     "path": "sprites/spr_UnderwaterEdgeSlantThree/spr_UnderwaterEdgeSlantThree.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

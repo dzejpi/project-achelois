@@ -9,10 +9,22 @@ if isControllable
 	// Left and right
 	if keyboard_check(vk_left) || keyboard_check(ord("A"))
 	{
-		hspeed -= 0.02;
+		if hspeed > -1
+		{
+			hspeed -= 0.02;
+		} else
+		{
+			hspeed = -1;
+		}
 	} else if keyboard_check(vk_right) || keyboard_check(ord("D"))
 	{
-		hspeed += 0.02;
+		if hspeed < 1
+		{
+			hspeed += 0.02;
+		} else
+		{
+			hspeed = 1;
+		}
 	} else
 	{
 		if hspeed > 0
@@ -35,10 +47,22 @@ if isControllable
 	// Up and down
 	if keyboard_check(vk_up) || keyboard_check(ord("W"))
 	{
-		vspeed -= 0.02;
+		if vspeed > -1
+		{
+			vspeed -= 0.02;
+		} else
+		{
+			vspeed = -1;
+		}
 	} else if keyboard_check(vk_down) || keyboard_check(ord("S"))
 	{
-		vspeed += 0.02;
+		if vspeed < 1
+		{
+			vspeed += 0.02;
+		} else
+		{
+			vspeed = 1;
+		}
 	} else
 	{
 		if vspeed > 0
@@ -182,3 +206,26 @@ if isControllable
 
 obj_SubmarineGUI.torpedoAmmo = torpedoesLeft;
 obj_SubmarineGUI.flechetteAmmo = flechettesLeft;
+
+// Collision prevention
+// Horizontal
+if (place_meeting(x + hspeed, y, obj_UnderwaterSurface))
+{
+	if !place_meeting(x + sign(hspeed), y, obj_UnderwaterSurface)
+	{
+		x += sign(hspeed);
+	}
+	hspeed = 0;
+}
+x += hspeed;
+
+// Vertical
+if (place_meeting(x, y + vspeed, obj_UnderwaterSurface))
+{
+	if !place_meeting(x, y + sign(vspeed), obj_UnderwaterSurface)
+	{
+		y += sign(vspeed);
+	}
+	vspeed = 0;
+}
+y += vspeed;

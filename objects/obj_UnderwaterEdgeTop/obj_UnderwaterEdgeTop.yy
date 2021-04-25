@@ -3,7 +3,7 @@
     "name": "spr_UnderwaterEdgeTop",
     "path": "sprites/spr_UnderwaterEdgeTop/spr_UnderwaterEdgeTop.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
