@@ -6,3 +6,4 @@ instance_create_depth(x, y, 0, obj_SubmarineGUI);
 
 instance_create_depth(x, y, 0, obj_QuestManager);
 instance_create_depth(obj_PlayerSubmarine.x, obj_PlayerSubmarine.y, 0, obj_UnderwaterDialogControllerOne);
+instance_create_depth(x, y, 0, obj_DustGenerator);
