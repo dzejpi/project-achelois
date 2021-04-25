@@ -14,7 +14,7 @@
   "duration": 3.70212,
   "parent": {
     "name": "Descend Dialogs",
-    "path": "folders/Sounds/GUI Sounds/Descend Dialogs.yy",
+    "path": "folders/Sounds/Dialogs/Descend Dialogs.yy",
   },
   "resourceVersion": "1.0",
   "name": "sound_DialogD5",

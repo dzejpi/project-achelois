@@ -18,6 +18,20 @@ function scr_ReturnProperText(textPiece){
 		
 		break;
 		
+		case "bumped":
+		
+			text = "That seemed like a misunderstanding."
+			audio_play_sound(sound_SamBump, 10, false);
+		
+		break;
+		
+		case "attack":
+		
+			text = "They are attacking us!"
+			audio_play_sound(sound_SamAttacking, 10, false);
+		
+		break;
+		
 		// Descend dialogs.
 		case "d1":
 		
@@ -109,6 +123,191 @@ function scr_ReturnProperText(textPiece){
 			audio_play_sound(sound_DialogD13, 10, false);
 		
 		break;
+		
+		// Underwater dialogs.
+		case "u1":
+		
+			text = "We are under water. Nice job."
+			audio_play_sound(sound_DialogU1, 10, false);
+		
+		break;
+		
+		case "u2":
+		
+			text = "Let’s examine few places."
+			audio_play_sound(sound_DialogU2, 10, false);
+		
+		break;
+		
+		case "u3":
+		
+			text = "This could be a clue."
+			audio_play_sound(sound_DialogU3, 10, false);
+		
+		break;
+		
+		case "u4":
+		
+			text = "Nothing here."
+			audio_play_sound(sound_DialogU4, 10, false);
+		
+		break;
+		
+		case "u5":
+		
+			text = "No interesting data here."
+			audio_play_sound(sound_DialogU5, 10, false);
+		
+		break;
+		
+		case "u6":
+		
+			text = "We must go deeper."
+			audio_play_sound(sound_DialogU6, 10, false);
+		
+		break;
+		
+		case "u7":
+		
+			text = "This looks like an organic material."
+			audio_play_sound(sound_DialogU7, 10, false);
+		
+		break;
+		
+		case "u8":
+		
+			text = "I get a lot of organic readings."
+			audio_play_sound(sound_DialogU8, 10, false);
+		
+		break;
+		
+		case "u9":
+		
+			text = "I have an important information for you."
+			audio_play_sound(sound_DialogU9, 10, false);
+		
+		break;
+		
+		case "u10":
+		
+			text = "There is no way back."
+			audio_play_sound(sound_DialogU10, 10, false);
+		
+		break;
+		
+		case "u11":
+		
+			text = "No option but to continue for you."
+			audio_play_sound(sound_DialogU11, 10, false);
+		
+		break;
+		
+		case "u12":
+		
+			text = "Extraterrestrial life confirmed!"
+			audio_play_sound(sound_DialogU12, 10, false);
+		
+		break;
+		
+		case "u13":
+		
+			text = "They use geothermal energy to survive."
+			audio_play_sound(sound_DialogU13, 10, false);
+		
+		break;
+		
+		case "u14":
+		
+			text = "This seems to be the bottom of the sea."
+			audio_play_sound(sound_DialogU14, 10, false);
+		
+		break;
+		
+		case "u15":
+		
+			text = "You have five minutes of oxygen left."
+			audio_play_sound(sound_DialogU15, 10, false);
+		
+		break;
+		
+		case "u16":
+		
+			text = "I am sorry. But I was powerless."
+			audio_play_sound(sound_DialogU16, 10, false);
+		
+		break;
+
+		case "u17":
+		
+			text = "I could not have prevented this."
+			audio_play_sound(sound_DialogU17, 10, false);
+		
+		break;
+
+		case "u18":
+		
+			text = "What does this mean?"
+			audio_play_sound(sound_DialogU18, 10, false);
+		
+		break;
+		
+		case "u19":
+		
+			text = "Do they want us to follow them?"
+			audio_play_sound(sound_DialogU19, 10, false);
+		
+		break;
+		
+		case "u20":
+		
+			text = "They seem intelligent somehow."
+			audio_play_sound(sound_DialogU20, 10, false);
+		
+		break;
+		
+		case "u21":
+		
+			text = "We could learn something from them."
+			audio_play_sound(sound_DialogU21, 10, false);
+		
+		break;
+		
+		// Ending
+		case "end1":
+		
+			text = "We are sinking! Nothing I can do!"
+			audio_play_sound(sound_DialogEnd1, 10, false);
+		
+		break;
+		
+		case "end2":
+		
+			text = "You eliminated all life! Not a good job!"
+			audio_play_sound(sound_DialogEnd2, 10, false);
+		
+		break;
+		
+		case "end3":
+		
+			text = "They are making oxygen for you!"
+			audio_play_sound(sound_DialogEnd3, 10, false);
+		
+		break;
+		
+		case "end4":
+		
+			text = "You can live here until help arrives."
+			audio_play_sound(sound_DialogEnd4, 10, false);
+		
+		break;
+		
+		case "end5":
+		
+			text = "We will have a lot of time to talk."
+			audio_play_sound(sound_DialogEnd5, 10, false);
+		
+		break;
+		
 	}
 	
 	obj_SubmarineGUI.activeText = text;
