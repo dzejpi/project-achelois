@@ -9,8 +9,11 @@ if timeBetweenDialogs = 0
 	} else if dialogsTriggered = 2
 	{
 		scr_ReturnProperText("end5");
-		timeBetweenDialogs = setDialogsTime;
+		timeBetweenDialogs = (setDialogsTime * 2);
 		dialogsTriggered += 1;
+	} else if dialogsTriggered = 3
+	{
+		room_goto_next();
 	}
 } else
 {

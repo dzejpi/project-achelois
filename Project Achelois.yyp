@@ -4,6 +4,7 @@
     {"id":{"name":"sound_SamBump","path":"sounds/sound_SamBump/sound_SamBump.yy",},"order":3,},
     {"id":{"name":"obj_SubmarineLight","path":"objects/obj_SubmarineLight/obj_SubmarineLight.yy",},"order":1,},
     {"id":{"name":"obj_QuestManager","path":"objects/obj_QuestManager/obj_QuestManager.yy",},"order":1,},
+    {"id":{"name":"room_Credits","path":"rooms/room_Credits/room_Credits.yy",},"order":4,},
     {"id":{"name":"obj_Quest3","path":"objects/obj_Quest3/obj_Quest3.yy",},"order":1,},
     {"id":{"name":"spr_creatureJellyfish","path":"sprites/spr_creatureJellyfish/spr_creatureJellyfish.yy",},"order":1,},
     {"id":{"name":"obj_Quest9","path":"objects/obj_Quest9/obj_Quest9.yy",},"order":7,},
@@ -17,6 +18,7 @@
     {"id":{"name":"sound_DialogU2","path":"sounds/sound_DialogU2/sound_DialogU2.yy",},"order":1,},
     {"id":{"name":"obj_DialogD9","path":"objects/obj_DialogD9/obj_DialogD9.yy",},"order":9,},
     {"id":{"name":"spr_Submarine","path":"sprites/spr_Submarine/spr_Submarine.yy",},"order":0,},
+    {"id":{"name":"obj_CreditsStarter","path":"objects/obj_CreditsStarter/obj_CreditsStarter.yy",},"order":4,},
     {"id":{"name":"obj_DescendUnderground","path":"objects/obj_DescendUnderground/obj_DescendUnderground.yy",},"order":2,},
     {"id":{"name":"spr_QuestMark","path":"sprites/spr_QuestMark/spr_QuestMark.yy",},"order":1,},
     {"id":{"name":"obj_DialogParent","path":"objects/obj_DialogParent/obj_DialogParent.yy",},"order":0,},
@@ -205,6 +207,7 @@
     {"roomId":{"name":"room_MainMenu","path":"rooms/room_MainMenu/room_MainMenu.yy",},},
     {"roomId":{"name":"room_PlayDescend","path":"rooms/room_PlayDescend/room_PlayDescend.yy",},},
     {"roomId":{"name":"room_PlayUnderwater","path":"rooms/room_PlayUnderwater/room_PlayUnderwater.yy",},},
+    {"roomId":{"name":"room_Credits","path":"rooms/room_Credits/room_Credits.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

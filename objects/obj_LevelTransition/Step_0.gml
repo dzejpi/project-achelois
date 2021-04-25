@@ -9,5 +9,6 @@ if transitionAlpha < 1
 
 if transitionAlpha = 1 
 {
-	room_goto(room_PlayUnderwater);
+	//room_goto(room_PlayUnderwater);
+	room_goto_next();
 }
