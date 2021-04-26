@@ -163,10 +163,12 @@ if isControllable
 				{
 					flechettesLeft--;
 					instance_create_depth(x + 10, y - 3, 0, obj_Flechette);
+					audio_play_sound(sound_Shooting, 10, false);
 				} else
 				{
 					flechettesLeft--;
 					instance_create_depth(x - 15, y - 3, 0, obj_Flechette);
+					audio_play_sound(sound_Shooting, 10, false);
 				}
 				
 				flechetteCooldown = 10;
@@ -181,10 +183,12 @@ if isControllable
 				{
 					torpedoesLeft--;
 					instance_create_depth(x + 14, y + 5, 0, obj_Torpedo);
+					audio_play_sound(sound_Shooting, 10, false);
 				} else
 				{
 					torpedoesLeft--;
 					instance_create_depth(x - 30, y + 5, 0, obj_Torpedo);
+					audio_play_sound(sound_Shooting, 10, false);
 				}
 				
 				torpedoCooldown = 50;	
